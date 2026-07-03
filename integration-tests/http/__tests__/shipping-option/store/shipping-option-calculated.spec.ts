@@ -278,7 +278,6 @@ medusaIntegrationTestRunner({
                 name: "Calculated shipping option",
                 price_type: "calculated",
                 provider_id: "manual-calculated_test-provider-calculated",
-                calculated_price: null,
                 prices: [],
                 // amount doesn't exist for calculated shipping options -> /calculate needs to be called
               }),
