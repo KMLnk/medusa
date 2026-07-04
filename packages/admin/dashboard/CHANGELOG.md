@@ -1,5 +1,20 @@
 # @medusajs/dashboard
 
+## 2.17.3
+
+### Patch Changes
+
+- [#15752](https://github.com/medusajs/medusa/pull/15752) [`2abcad9ad02782044257f038069227665a09362d`](https://github.com/medusajs/medusa/commit/2abcad9ad02782044257f038069227665a09362d) Thanks [@merkelis-p](https://github.com/merkelis-p)! - fix(dashboard): Fix a Rules of Hooks violation in `RouteFocusModal`: `useStateAwareTo` was
+  called conditionally inside a ternary
+  (`typeof prev === "number" ? prev : useStateAwareTo(prev)`, suppressed with
+  `eslint-disable react-hooks/rules-of-hooks`). `useStateAwareTo` now accepts a
+  `number` and returns it unchanged, so it can be called unconditionally.
+- Updated dependencies []:
+  - @medusajs/js-sdk@2.17.3
+  - @medusajs/admin-shared@2.17.3
+  - @medusajs/icons@2.17.3
+  - @medusajs/ui@4.1.20
+
 ## 2.17.2
 
 ### Patch Changes

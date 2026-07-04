@@ -1,5 +1,14 @@
 # @medusajs/core-flows
 
+## 2.17.3
+
+### Patch Changes
+
+- [#15746](https://github.com/medusajs/medusa/pull/15746) [`f0e86a06ada4e43cf61383a65603dab7ef5e8039`](https://github.com/medusajs/medusa/commit/f0e86a06ada4e43cf61383a65603dab7ef5e8039) Thanks [@Kelpy2004](https://github.com/Kelpy2004)! - fix(core-flows): pass customer groups to pricing context in createCartWorkflow
+
+- Updated dependencies [[`513c01a5a7f587cb52c92677e2379e54bd990361`](https://github.com/medusajs/medusa/commit/513c01a5a7f587cb52c92677e2379e54bd990361)]:
+  - @medusajs/framework@2.17.3
+
 ## 2.17.2
 
 ### Patch Changes

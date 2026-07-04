@@ -1,5 +1,13 @@
 # @medusajs/types
 
+## 2.17.3
+
+### Patch Changes
+
+- [#15686](https://github.com/medusajs/medusa/pull/15686) [`99f2ea9c85a64a08c56196ba963db2c8dd0b7923`](https://github.com/medusajs/medusa/commit/99f2ea9c85a64a08c56196ba963db2c8dd0b7923) Thanks [@mrpackethead](https://github.com/mrpackethead)! - feat(utils): support dynamic password function in createPgConnection for RDS IAM auth
+
+  Pass `driverOptions.dynamicPassword` and `driverOptions.expirationChecker` through to the Knex connection config, enabling AWS RDS IAM authentication and other rotating-credential patterns.
+
 ## 2.17.2
 
 ### Patch Changes
